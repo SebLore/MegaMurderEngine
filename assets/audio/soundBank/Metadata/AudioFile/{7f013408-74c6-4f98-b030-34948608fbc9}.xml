@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{7f013408-74c6-4f98-b030-34948608fbc9}">
+		<property name="assetPath">
+			<value>backgroundMusic/fight/rock.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>53.351999999999997</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{c17045c4-f372-4f2a-8945-7f17c9af62a1}</destination>
+		</relationship>
+	</object>
+</objects>

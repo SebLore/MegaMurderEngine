@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="EncodableAsset" id="{61fcdb11-e296-4fa0-8ef8-bdcef02b815f}">
+		<property name="assetPath">
+			<value>enemy/sound/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{c17045c4-f372-4f2a-8945-7f17c9af62a1}</destination>
+		</relationship>
+	</object>
+</objects>

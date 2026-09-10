@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{1d6f1eb7-9b4a-4732-a407-6d3d93622901}">
+		<property name="assetPath">
+			<value>enemy/punching/hit31.mp3.flac</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.83698412698412694</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{c17045c4-f372-4f2a-8945-7f17c9af62a1}</destination>
+		</relationship>
+	</object>
+</objects>

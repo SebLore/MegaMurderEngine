@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{7e6dac6b-8995-434f-8894-49e335706fc1}">
+		<property name="assetPath">
+			<value>enemy/Damage/689664__immergomedia__plasticsnatch01.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.75464852607709754</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{c17045c4-f372-4f2a-8945-7f17c9af62a1}</destination>
+		</relationship>
+	</object>
+</objects>

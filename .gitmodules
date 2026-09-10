@@ -1,0 +1,36 @@
+[submodule "3DProgrammingProject/external/imgui"]
+	path = 3DProgrammingProject/external/imgui
+	url = https://github.com/ocornut/imgui
+	branch = docking
+	ignore = dirty
+[submodule "external/imgui"]
+	path = external/imgui
+	url = https://github.com/ocornut/imgui
+	ignore = dirty
+[submodule "external/stb"]
+	path = external/stb
+	url = https://github.com/nothings/stb
+	ignore = dirty
+[submodule "external/DirectXTK"]
+	path = external/DirectXTK
+	url = https://github.com/microsoft/DirectXTK
+	ignore = dirty
+[submodule "external/assimp"]
+	path = external/assimp
+	url = https://github.com/assimp/assimp
+	ignore = dirty
+[submodule "external/entt"]
+	path = external/entt
+	url = https://github.com/skypjack/entt
+	ignore = dirty
+[submodule "external/lua"]
+	path = external/lua
+	url = https://github.com/lua/lua
+	ignore = dirty
+[submodule "external/sol2"]
+	path = external/sol2
+	url = https://github.com/ThePhD/sol2.git
+	ignore = dirty
+[submodule "external/jolt"]
+	path = external/jolt
+	url = https://github.com/jrouwe/JoltPhysics

@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{e0fd4593-818d-4c73-b83a-5184301b3949}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ShaderHeaders">
+      <UniqueIdentifier>{f9e01efc-2563-40bc-80bb-27d2b623bf79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utility">
+      <UniqueIdentifier>{18e0f26e-24cc-4104-976d-797fe3eab4af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine">
+      <UniqueIdentifier>{58c25e64-79a3-4904-b0f9-8d2a80de9e65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Abstraction">
+      <UniqueIdentifier>{a7fdcd54-d1e7-4a6b-a833-29a608ce7ce3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Scene">
+      <UniqueIdentifier>{c5e62f22-814a-4c50-aa2c-29118a1cd82a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Techniques">
+      <UniqueIdentifier>{c37bcce0-3b78-4149-b691-21ca3d6df50e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Techniques\OBJLoader">
+      <UniqueIdentifier>{5f4207da-fdef-4b8d-9589-992c1354f80b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Techniques\Particles">
+      <UniqueIdentifier>{a99ba2e8-075e-41b9-b0bb-1f2da2bc716a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Techniques\Shadows">
+      <UniqueIdentifier>{4576cf96-e673-4fa1-9114-cdb399caa830}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Techniques\Tesselation">
+      <UniqueIdentifier>{74430e14-6307-464e-8695-349669eef13b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Techniques\FrustumCulling">
+      <UniqueIdentifier>{b0325b90-67aa-4e13-91a0-f3ae4f081520}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Techniques\Deferred">
+      <UniqueIdentifier>{2ef5e1e7-0c4e-463b-bdfc-a2f8005ed1c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Techniques\DCEM">
+      <UniqueIdentifier>{717c8c92-b158-4da0-988c-e056ec9f43c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine">
+      <UniqueIdentifier>{aec0d3e4-7e5c-4dbd-9a42-b17280e3dfdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utility">
+      <UniqueIdentifier>{c6b7e819-3f9f-4153-867b-85aaa3797cc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Techniques">
+      <UniqueIdentifier>{435804c3-5bc0-4ec1-80a2-4d2a9ab85ded}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Abstraction">
+      <UniqueIdentifier>{149ee9bd-fabe-4c08-a286-33559390f80f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Scene">
+      <UniqueIdentifier>{f5d76a0f-406e-4ff8-b877-0b1e90ee87d9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="include\Abstraction\abstractions.md" />
+    <None Include="shaders\hlsli\BoundResources.hlsli">
+      <Filter>ShaderHeaders</Filter>
+    </None>
+    <None Include="shaders\hlsli\LightCalculations.hlsli">
+      <Filter>ShaderHeaders</Filter>
+    </None>
+    <None Include="shaders\hlsli\Registers.hlsli">
+      <Filter>ShaderHeaders</Filter>
+    </None>
+    <None Include="shaders\hlsli\Structures.hlsli">
+      <Filter>ShaderHeaders</Filter>
+    </None>
+    <None Include="shaders\hlsli\Particle.hlsli">
+      <Filter>Techniques\Particles</Filter>
+    </None>
+    <None Include="..\..\misc\props\HlslDefaults.props" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Abstraction\GBuffer.h">
+      <Filter>Techniques\Deferred</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Techniques\ShadowMap.h">
+      <Filter>Techniques\Shadows</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Abstractions.h">
+      <Filter>Header Files\Engine\Abstraction</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Abstraction\ConstantBuffer.h">
+      <Filter>Header Files\Engine\Abstraction</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Common\Constants.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Abstraction\DepthStencil.h">
+      <Filter>Header Files\Engine\Abstraction</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RenderEngine.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Abstraction\IndexBuffer.h">
+      <Filter>Header Files\Engine\Abstraction</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Abstraction\InputLayout.h">
+      <Filter>Header Files\Engine\Abstraction</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Geometry\Mesh.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Common\RegisterConstants.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Abstraction\Shader.h">
+      <Filter>Header Files\Engine\Abstraction</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Abstraction\ShaderResourceView.h">
+      <Filter>Header Files\Engine\Abstraction</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Common\ShaderStage.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Abstraction\States.h">
+      <Filter>Header Files\Engine\Abstraction</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Abstraction\StructuredBuffer.h">
+      <Filter>Header Files\Engine\Abstraction</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Geometry\Vertices.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Abstraction\VertexBuffer.h">
+      <Filter>Header Files\Engine\Abstraction</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Techniques\Tesselation.h">
+      <Filter>Techniques\Tesselation</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Common\D3D11Headers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Abstraction\CBuffer\ICBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Abstraction\CBuffer\CBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Abstraction\CBuffer\CBufferT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Abstraction\RenderTarget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderEngine.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Rework\RenderBackend.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Rework\RenderView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Rework\Cache\ResourceCache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Rework\VertexLayout.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Common\Render\CameraGpu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Common\Render\MaterialGpu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Common\Render\TransformGpu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Common\Render\MeshGpu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Rework\Loader\GpuLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Common\Render\LightGpu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Common\Render\LightCollection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Common\Render\ShadowGpu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Utils\DebugName.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Common\Render\DrawList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Tesselation.cpp">
+      <Filter>Techniques\Tesselation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ShadowMap.cpp">
+      <Filter>Techniques\Shadows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Abstraction\Shader.cpp">
+      <Filter>Source Files\Engine\Abstraction</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RenderEngine.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Abstraction\CBuffer\CBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Abstraction\RenderTarget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Abstraction\DepthStencil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Rework\TransformGpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Rework\RenderBackend.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Rework\Loader\GpuLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="shaders\DefaultPS.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\DefaultVS.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\DepthPassVS.hlsl">
+      <Filter>Techniques\Shadows</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\BasicPS.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\BasicVS.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\FullscreenQuadPS.hlsl" />
+    <FxCompile Include="shaders\FullscreenQuadVS.hlsl" />
+    <FxCompile Include="shaders\DebugNormalsPS.hlsl" />
+    <FxCompile Include="shaders\DebugTopologyPS.hlsl" />
+    <FxCompile Include="shaders\VS_Default.hlsl" />
+    <FxCompile Include="shaders\PS_Default.hlsl" />
+  </ItemGroup>
+</Project>

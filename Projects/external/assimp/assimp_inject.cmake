@@ -1,0 +1,1 @@
+add_compile_definitions(ASSIMP_BUILD_NO_GLTF1_IMPORTER)

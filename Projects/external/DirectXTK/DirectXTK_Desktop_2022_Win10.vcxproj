@@ -1,0 +1,468 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|ARM64">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM64">
+      <Configuration>Release</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(SolutionDir)external\DirectXTK\Audio\SoundCommon.h" />
+    <ClInclude Include="$(SolutionDir)external\DirectXTK\Audio\WaveBankReader.h" />
+    <ClInclude Include="$(SolutionDir)external\DirectXTK\Audio\WAVFileReader.h" />
+    <ClInclude Include="$(SolutionDir)external\DirectXTK\Inc\Audio.h" />
+    <ClInclude Include="$(SolutionDir)external\DirectXTK\Inc\BufferHelpers.h" />
+    <ClInclude Include="$(SolutionDir)external\DirectXTK\Inc\CommonStates.h" />
+    <ClInclude Include="$(SolutionDir)external\DirectXTK\Inc\DDSTextureLoader.h" />
+    <ClInclude Include="$(SolutionDir)external\DirectXTK\Inc\DirectXHelpers.h" />
+    <ClInclude Include="$(SolutionDir)external\DirectXTK\Inc\Effects.h" />
+    <ClInclude Include="$(SolutionDir)external\DirectXTK\Inc\GamePad.h" />
+    <ClInclude Include="$(SolutionDir)external\DirectXTK\Inc\GeometricPrimitive.h" />
+    <ClInclude Include="$(SolutionDir)external\DirectXTK\Inc\GraphicsMemory.h" />
+    <ClInclude Include="$(SolutionDir)external\DirectXTK\Inc\Keyboard.h" />
+    <ClInclude Include="$(SolutionDir)external\DirectXTK\Inc\Model.h" />
+    <ClInclude Include="$(SolutionDir)external\DirectXTK\Inc\Mouse.h" />
+    <ClInclude Include="$(SolutionDir)external\DirectXTK\Inc\PostProcess.h" />
+    <ClInclude Include="$(SolutionDir)external\DirectXTK\Inc\SimpleMath.h" />
+    <ClInclude Include="$(SolutionDir)external\DirectXTK\Inc\SimpleMath.inl" />
+    <ClInclude Include="$(SolutionDir)external\DirectXTK\Inc\ScreenGrab.h" />
+    <ClInclude Include="$(SolutionDir)external\DirectXTK\Inc\SpriteBatch.h" />
+    <ClInclude Include="$(SolutionDir)external\DirectXTK\Inc\PrimitiveBatch.h" />
+    <ClInclude Include="$(SolutionDir)external\DirectXTK\Inc\SpriteFont.h" />
+    <ClInclude Include="$(SolutionDir)external\DirectXTK\Inc\VertexTypes.h" />
+    <ClInclude Include="$(SolutionDir)external\DirectXTK\Inc\WICTextureLoader.h" />
+    <ClInclude Include="$(SolutionDir)external\DirectXTK\Src\AlignedNew.h" />
+    <ClInclude Include="$(SolutionDir)external\DirectXTK\Src\Bezier.h" />
+    <ClInclude Include="$(SolutionDir)external\DirectXTK\Src\BinaryReader.h" />
+    <ClInclude Include="$(SolutionDir)external\DirectXTK\Src\CMO.h" />
+    <ClInclude Include="$(SolutionDir)external\DirectXTK\Src\DemandCreate.h" />
+    <ClInclude Include="$(SolutionDir)external\DirectXTK\Src\EffectCommon.h" />
+    <ClInclude Include="$(SolutionDir)external\DirectXTK\Src\Geometry.h" />
+    <ClInclude Include="$(SolutionDir)external\DirectXTK\Src\LoaderHelpers.h" />
+    <ClInclude Include="$(SolutionDir)external\DirectXTK\Src\pch.h" />
+    <ClInclude Include="$(SolutionDir)external\DirectXTK\Src\PlatformHelpers.h" />
+    <ClInclude Include="$(SolutionDir)external\DirectXTK\Src\SDKMesh.h" />
+    <ClInclude Include="$(SolutionDir)external\DirectXTK\Src\SharedResourcePool.h" />
+    <ClInclude Include="$(SolutionDir)external\DirectXTK\Src\DDS.h" />
+    <ClInclude Include="$(SolutionDir)external\DirectXTK\Src\vbo.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Audio\AudioEngine.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Audio\DynamicSoundEffectInstance.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Audio\SoundCommon.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Audio\SoundEffect.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Audio\SoundEffectInstance.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Audio\SoundStreamInstance.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Audio\WaveBank.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Audio\WaveBankReader.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Audio\WAVFileReader.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Src\AlphaTestEffect.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Src\BasicEffect.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Src\BasicPostProcess.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Src\BufferHelpers.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Src\CommonStates.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Src\DDSTextureLoader.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Src\DebugEffect.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Src\DGSLEffect.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Src\DGSLEffectFactory.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Src\DirectXHelpers.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Src\DualPostProcess.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Src\DualTextureEffect.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Src\BinaryReader.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Src\EffectCommon.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Src\EffectFactory.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Src\EnvironmentMapEffect.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Src\GamePad.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Src\GeometricPrimitive.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Src\Geometry.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Src\GraphicsMemory.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Src\Keyboard.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Src\Model.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Src\ModelLoadCMO.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Src\ModelLoadSDKMESH.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Src\ModelLoadVBO.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Src\Mouse.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Src\NormalMapEffect.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Src\PBREffect.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Src\PBREffectFactory.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Src\pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Src\ScreenGrab.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Src\SimpleMath.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Src\SkinnedEffect.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Src\SpriteBatch.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Src\PrimitiveBatch.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Src\SpriteFont.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Src\ToneMapPostProcess.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Src\VertexTypes.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Src\WICTextureLoader.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(SolutionDir)external\DirectXTK\README.md" />
+    <None Include="$(SolutionDir)external\DirectXTK\Src\Shaders\Common.fxh" />
+    <None Include="$(SolutionDir)external\DirectXTK\Src\Shaders\CompileShaders.cmd" />
+    <None Include="$(SolutionDir)external\DirectXTK\Src\Shaders\Lighting.fxh" />
+    <None Include="$(SolutionDir)external\DirectXTK\Src\Shaders\PBRCommon.fxh" />
+    <None Include="$(SolutionDir)external\DirectXTK\Src\Shaders\PixelPacking_Velocity.hlsli" />
+    <None Include="$(SolutionDir)external\DirectXTK\Src\Shaders\Skinning.fxh" />
+    <None Include="$(SolutionDir)external\DirectXTK\Src\Shaders\SpriteEffect.fx" />
+    <None Include="$(SolutionDir)external\DirectXTK\Src\Shaders\Structures.fxh" />
+    <None Include="$(SolutionDir)external\DirectXTK\Src\Shaders\Utilities.fxh" />
+    <None Include="$(SolutionDir)external\DirectXTK\Src\TeapotData.inc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(SolutionDir)external\DirectXTK\Src\Shaders\BasicEffect.fx">
+      <FileType>Document</FileType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(SolutionDir)external\DirectXTK\Src\Shaders\AlphaTestEffect.fx">
+      <FileType>Document</FileType>
+    </None>
+    <None Include="$(SolutionDir)external\DirectXTK\Src\Shaders\DualTextureEffect.fx">
+      <FileType>Document</FileType>
+    </None>
+    <None Include="$(SolutionDir)external\DirectXTK\Src\Shaders\EnvironmentMapEffect.fx">
+      <FileType>Document</FileType>
+    </None>
+    <None Include="$(SolutionDir)external\DirectXTK\Src\Shaders\SkinnedEffect.fx">
+      <FileType>Document</FileType>
+    </None>
+    <None Include="$(SolutionDir)external\DirectXTK\Src\Shaders\DGSLEffect.fx">
+      <FileType>Document</FileType>
+    </None>
+    <None Include="$(SolutionDir)external\DirectXTK\Src\Shaders\DGSLLambert.hlsl">
+      <FileType>Document</FileType>
+    </None>
+    <None Include="$(SolutionDir)external\DirectXTK\Src\Shaders\DGSLPhong.hlsl">
+      <FileType>Document</FileType>
+    </None>
+    <None Include="$(SolutionDir)external\DirectXTK\Src\Shaders\DGSLUnlit.hlsl">
+      <FileType>Document</FileType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(SolutionDir)external\DirectXTK\Src\Shaders\NormalMapEffect.fx">
+      <FileType>Document</FileType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(SolutionDir)external\DirectXTK\Src\Shaders\PostProcess.fx">
+      <FileType>Document</FileType>
+    </None>
+    <None Include="$(SolutionDir)external\DirectXTK\Src\Shaders\ToneMap.fx">
+      <FileType>Document</FileType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(SolutionDir)external\DirectXTK\Src\Shaders\PBREffect.fx">
+      <FileType>Document</FileType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(SolutionDir)external\DirectXTK\Src\Shaders\DebugEffect.fx">
+      <FileType>Document</FileType>
+    </None>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E0B52AE7-E160-4D32-BF3F-910B785E5A8E}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>DirectXTK</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+    <ProjectName>DirectXTK</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>$(DefaultPlatformToolset)</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>$(DefaultPlatformToolset)</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>$(DefaultPlatformToolset)</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>$(DefaultPlatformToolset)</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>$(DefaultPlatformToolset)</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>$(DefaultPlatformToolset)</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)lib\$(Configuration)\$(Platform)\</OutDir>
+    <IntDir>$(SolutionDir)int\$(Configuration)\$(Platform)\$(ProjectName)\</IntDir>
+    <TargetName>DirectXTK_d</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)lib\$(Configuration)\$(Platform)\</OutDir>
+    <IntDir>$(SolutionDir)int\$(Configuration)\$(Platform)\$(ProjectName)\</IntDir>
+    <TargetName>DirectXTK</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)lib\$(Configuration)\$(Platform)\</OutDir>
+    <IntDir>$(SolutionDir)int\$(Configuration)\$(Platform)\$(ProjectName)\</IntDir>
+    <TargetName>DirectXTK_d</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
+    <OutDir>$(SolutionDir)lib\$(Configuration)\$(Platform)\</OutDir>
+    <IntDir>$(SolutionDir)int\$(Configuration)\$(Platform)\$(ProjectName)\</IntDir>
+    <TargetName>DirectXTK_d</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)lib\$(Configuration)\$(Platform)\</OutDir>
+    <IntDir>$(SolutionDir)int\$(Configuration)\$(Platform)\$(ProjectName)\</IntDir>
+    <TargetName>DirectXTK</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">
+    <OutDir>$(SolutionDir)lib\$(Configuration)\$(Platform)\</OutDir>
+    <IntDir>$(SolutionDir)int\$(Configuration)\$(Platform)\$(ProjectName)\</IntDir>
+    <TargetName>DirectXTK</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(SpectreMitigation)'!='' AND '$(SpectreMitigation)'!='false'">
+    <OutDir>Bin\Desktop_2022_Win10\$(Platform)\$(Configuration)Spectre\</OutDir>
+    <IntDir>Bin\Desktop_2022_Win10\$(Platform)\$(Configuration)Spectre\</IntDir>
+    <TargetName>DirectXTK_Spectre</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>EnableAllWarnings</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_WIN32_WINNT=0x0A00;WIN32;_DEBUG;_LIB;_CRT_STDIO_ARBITRARY_WIDE_SPECIFIERS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(SolutionDir)external\DirectXTK\Inc;$(SolutionDir)external\DirectXTK\Src;$(IntDir)Shaders\Compiled;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <ProgramDataBaseFileName>$(IntDir)$(TargetName).pdb</ProgramDataBaseFileName>
+      <ConformanceMode>true</ConformanceMode>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <SupportJustMyCode>false</SupportJustMyCode>
+      <ExternalWarningLevel>Level4</ExternalWarningLevel>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>EnableAllWarnings</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_WIN32_WINNT=0x0A00;WIN32;_DEBUG;_LIB;_CRT_STDIO_ARBITRARY_WIDE_SPECIFIERS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(SolutionDir)external\DirectXTK\Inc;$(SolutionDir)external\DirectXTK\Src;$(IntDir)Shaders\Compiled;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <ProgramDataBaseFileName>$(IntDir)$(TargetName).pdb</ProgramDataBaseFileName>
+      <ConformanceMode>true</ConformanceMode>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <SupportJustMyCode>false</SupportJustMyCode>
+      <ExternalWarningLevel>Level4</ExternalWarningLevel>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>EnableAllWarnings</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_WIN32_WINNT=0x0A00;WIN32;_DEBUG;_LIB;_CRT_STDIO_ARBITRARY_WIDE_SPECIFIERS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(SolutionDir)external\DirectXTK\Inc;$(SolutionDir)external\DirectXTK\Src;$(IntDir)Shaders\Compiled;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <ProgramDataBaseFileName>$(IntDir)$(TargetName).pdb</ProgramDataBaseFileName>
+      <ConformanceMode>true</ConformanceMode>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <SupportJustMyCode>false</SupportJustMyCode>
+      <ExternalWarningLevel>Level4</ExternalWarningLevel>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>EnableAllWarnings</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <PreprocessorDefinitions>_WIN32_WINNT=0x0A00;WIN32;NDEBUG;_LIB;_CRT_STDIO_ARBITRARY_WIDE_SPECIFIERS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(SolutionDir)external\DirectXTK\Inc;$(SolutionDir)external\DirectXTK\Src;$(IntDir)Shaders\Compiled;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <ProgramDataBaseFileName>$(IntDir)$(TargetName).pdb</ProgramDataBaseFileName>
+      <ConformanceMode>true</ConformanceMode>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
+      <ExternalWarningLevel>Level4</ExternalWarningLevel>
+      <GuardEHContMetadata>true</GuardEHContMetadata>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">
+    <ClCompile>
+      <WarningLevel>EnableAllWarnings</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <PreprocessorDefinitions>_WIN32_WINNT=0x0A00;WIN32;NDEBUG;_LIB;_CRT_STDIO_ARBITRARY_WIDE_SPECIFIERS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>
+        $(SolutionDir)external\DirectXTK\Inc;
+        $(SolutionDir)external\DirectXTK\Src;
+        $(IntDir)Shaders\Compiled;
+        %(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <ProgramDataBaseFileName>$(IntDir)$(TargetName).pdb</ProgramDataBaseFileName>
+      <ConformanceMode>true</ConformanceMode>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
+      <ExternalWarningLevel>Level4</ExternalWarningLevel>
+      <GuardEHContMetadata>true</GuardEHContMetadata>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>EnableAllWarnings</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <PreprocessorDefinitions>_WIN32_WINNT=0x0A00;WIN32;NDEBUG;_LIB;_CRT_STDIO_ARBITRARY_WIDE_SPECIFIERS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(SolutionDir)external\DirectXTK\Inc;$(SolutionDir)external\DirectXTK\Src;$(IntDir)Shaders\Compiled;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <ProgramDataBaseFileName>$(IntDir)$(TargetName).pdb</ProgramDataBaseFileName>
+      <ConformanceMode>true</ConformanceMode>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
+      <ExternalWarningLevel>Level4</ExternalWarningLevel>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <Target Name="ATGEnsureShaders" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <_ATGFXCPath>$(WindowsSDK_ExecutablePath_x64.Split(';')[0])</_ATGFXCPath>
+      <_ATGFXCPath>$(_ATGFXCPath.Replace("x64",""))</_ATGFXCPath>
+      <_ATGFXCPath Condition="'$(_ATGFXCPath)' != '' and !HasTrailingSlash('$(_ATGFXCPath)')">$(_ATGFXCPath)\</_ATGFXCPath>
+      <_ATGFXCVer>$([System.Text.RegularExpressions.Regex]::Match($(_ATGFXCPath), '10\.0\.\d+\.0'))</_ATGFXCVer>
+      <_ATGFXCVer Condition="'$(_ATGFXCVer)' != '' and !HasTrailingSlash('$(_ATGFXCVer)')">$(_ATGFXCVer)\</_ATGFXCVer>
+      <_ATGShaderOutDir>$(IntDir)Shaders\Compiled</_ATGShaderOutDir>
+    </PropertyGroup>
+    <Exec Condition="!Exists('$(_ATGShaderOutDir)\SpriteEffect_SpriteVertexShader.inc')" WorkingDirectory="$(SolutionDir)external\DirectXTK\Src\Shaders" Command="CompileShaders" EnvironmentVariables="WindowsSdkVerBinPath=$(_ATGFXCPath);WindowsSDKVersion=$(_ATGFXCVer);CompileShadersOutput=$(_ATGShaderOutDir)" LogStandardErrorAsError="true" />
+    <PropertyGroup>
+      <_ATGFXCPath />
+      <_ATGFXCVer />
+      <_ATGShaderOutDir />
+    </PropertyGroup>
+  </Target>
+  <Target Name="ATGDeleteShaders" AfterTargets="Clean">
+    <PropertyGroup>
+      <_ATGShaderOutDir>$(IntDir)Shaders\Compiled</_ATGShaderOutDir>
+    </PropertyGroup>
+    <ItemGroup>
+      <_ATGShaderHeaders Include="$(_ATGShaderOutDir)\*.inc" Exclude="$(_ATGShaderOutDir)\*Xbox*.inc" />
+      <_ATGShaderSymbols Include="$(_ATGShaderOutDir)\*.pdb" Exclude="$(_ATGShaderOutDir)\*Xbox*.pdb" />
+    </ItemGroup>
+    <Delete Files="@(_ATGShaderHeaders)" />
+    <Delete Files="@(_ATGShaderSymbols)" />
+    <PropertyGroup>
+      <_ATGShaderOutDir />
+    </PropertyGroup>
+  </Target>
+</Project>

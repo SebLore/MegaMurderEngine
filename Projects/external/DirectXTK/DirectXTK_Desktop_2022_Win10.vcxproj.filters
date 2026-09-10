@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Inc">
+      <UniqueIdentifier>{771f5f80-d173-49c3-8afb-790e8f7cb0ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{c52e19b6-8703-49a1-9b36-101a05b4745d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inc\Shared">
+      <UniqueIdentifier>{e07ba3bc-b69f-4ded-9ffa-3b47427e9fef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Shared">
+      <UniqueIdentifier>{28e934ed-a6d7-4c30-b064-c72c50c99626}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Shaders">
+      <UniqueIdentifier>{28d5fa16-99e2-471c-8cd8-2020e81f0024}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Shaders\Shared">
+      <UniqueIdentifier>{34676173-31f5-4435-b90d-a0ad4f7d163c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Audio">
+      <UniqueIdentifier>{5d47b946-09b9-4477-934f-ca45fba9845d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(SolutionDir)external\DirectXTK\Audio\SoundCommon.h" />
+    <ClInclude Include="$(SolutionDir)external\DirectXTK\Audio\WaveBankReader.h" />
+    <ClInclude Include="$(SolutionDir)external\DirectXTK\Audio\WAVFileReader.h" />
+    <ClInclude Include="$(SolutionDir)external\DirectXTK\Inc\Audio.h" />
+    <ClInclude Include="$(SolutionDir)external\DirectXTK\Inc\BufferHelpers.h" />
+    <ClInclude Include="$(SolutionDir)external\DirectXTK\Inc\CommonStates.h" />
+    <ClInclude Include="$(SolutionDir)external\DirectXTK\Inc\DDSTextureLoader.h" />
+    <ClInclude Include="$(SolutionDir)external\DirectXTK\Inc\DirectXHelpers.h" />
+    <ClInclude Include="$(SolutionDir)external\DirectXTK\Inc\Effects.h" />
+    <ClInclude Include="$(SolutionDir)external\DirectXTK\Inc\GamePad.h" />
+    <ClInclude Include="$(SolutionDir)external\DirectXTK\Inc\GeometricPrimitive.h" />
+    <ClInclude Include="$(SolutionDir)external\DirectXTK\Inc\GraphicsMemory.h" />
+    <ClInclude Include="$(SolutionDir)external\DirectXTK\Inc\Keyboard.h" />
+    <ClInclude Include="$(SolutionDir)external\DirectXTK\Inc\Model.h" />
+    <ClInclude Include="$(SolutionDir)external\DirectXTK\Inc\Mouse.h" />
+    <ClInclude Include="$(SolutionDir)external\DirectXTK\Inc\PostProcess.h" />
+    <ClInclude Include="$(SolutionDir)external\DirectXTK\Inc\SimpleMath.h" />
+    <ClInclude Include="$(SolutionDir)external\DirectXTK\Inc\SimpleMath.inl" />
+    <ClInclude Include="$(SolutionDir)external\DirectXTK\Inc\ScreenGrab.h" />
+    <ClInclude Include="$(SolutionDir)external\DirectXTK\Inc\SpriteBatch.h" />
+    <ClInclude Include="$(SolutionDir)external\DirectXTK\Inc\PrimitiveBatch.h" />
+    <ClInclude Include="$(SolutionDir)external\DirectXTK\Inc\SpriteFont.h" />
+    <ClInclude Include="$(SolutionDir)external\DirectXTK\Inc\VertexTypes.h" />
+    <ClInclude Include="$(SolutionDir)external\DirectXTK\Inc\WICTextureLoader.h" />
+    <ClInclude Include="$(SolutionDir)external\DirectXTK\Src\AlignedNew.h" />
+    <ClInclude Include="$(SolutionDir)external\DirectXTK\Src\Bezier.h" />
+    <ClInclude Include="$(SolutionDir)external\DirectXTK\Src\BinaryReader.h" />
+    <ClInclude Include="$(SolutionDir)external\DirectXTK\Src\CMO.h" />
+    <ClInclude Include="$(SolutionDir)external\DirectXTK\Src\DemandCreate.h" />
+    <ClInclude Include="$(SolutionDir)external\DirectXTK\Src\EffectCommon.h" />
+    <ClInclude Include="$(SolutionDir)external\DirectXTK\Src\Geometry.h" />
+    <ClInclude Include="$(SolutionDir)external\DirectXTK\Src\LoaderHelpers.h" />
+    <ClInclude Include="$(SolutionDir)external\DirectXTK\Src\pch.h" />
+    <ClInclude Include="$(SolutionDir)external\DirectXTK\Src\PlatformHelpers.h" />
+    <ClInclude Include="$(SolutionDir)external\DirectXTK\Src\SDKMesh.h" />
+    <ClInclude Include="$(SolutionDir)external\DirectXTK\Src\SharedResourcePool.h" />
+    <ClInclude Include="$(SolutionDir)external\DirectXTK\Src\DDS.h" />
+    <ClInclude Include="$(SolutionDir)external\DirectXTK\Src\vbo.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Audio\AudioEngine.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Audio\DynamicSoundEffectInstance.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Audio\SoundCommon.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Audio\SoundEffect.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Audio\SoundEffectInstance.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Audio\SoundStreamInstance.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Audio\WaveBank.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Audio\WaveBankReader.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Audio\WAVFileReader.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Src\AlphaTestEffect.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Src\BasicEffect.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Src\BasicPostProcess.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Src\BufferHelpers.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Src\CommonStates.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Src\DDSTextureLoader.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Src\DebugEffect.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Src\DGSLEffect.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Src\DGSLEffectFactory.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Src\DirectXHelpers.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Src\DualPostProcess.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Src\DualTextureEffect.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Src\BinaryReader.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Src\EffectCommon.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Src\EffectFactory.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Src\EnvironmentMapEffect.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Src\GamePad.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Src\GeometricPrimitive.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Src\Geometry.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Src\GraphicsMemory.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Src\Keyboard.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Src\Model.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Src\ModelLoadCMO.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Src\ModelLoadSDKMESH.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Src\ModelLoadVBO.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Src\Mouse.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Src\NormalMapEffect.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Src\PBREffect.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Src\PBREffectFactory.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Src\pch.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Src\ScreenGrab.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Src\SimpleMath.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Src\SkinnedEffect.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Src\SpriteBatch.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Src\PrimitiveBatch.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Src\SpriteFont.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Src\ToneMapPostProcess.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Src\VertexTypes.cpp" />
+    <ClCompile Include="$(SolutionDir)external\DirectXTK\Src\WICTextureLoader.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(SolutionDir)external\DirectXTK\README.md" />
+    <None Include="$(SolutionDir)external\DirectXTK\Src\Shaders\Common.fxh" />
+    <None Include="$(SolutionDir)external\DirectXTK\Src\Shaders\CompileShaders.cmd" />
+    <None Include="$(SolutionDir)external\DirectXTK\Src\Shaders\Lighting.fxh" />
+    <None Include="$(SolutionDir)external\DirectXTK\Src\Shaders\PBRCommon.fxh" />
+    <None Include="$(SolutionDir)external\DirectXTK\Src\Shaders\PixelPacking_Velocity.hlsli" />
+    <None Include="$(SolutionDir)external\DirectXTK\Src\Shaders\Skinning.fxh" />
+    <None Include="$(SolutionDir)external\DirectXTK\Src\Shaders\SpriteEffect.fx" />
+    <None Include="$(SolutionDir)external\DirectXTK\Src\Shaders\Structures.fxh" />
+    <None Include="$(SolutionDir)external\DirectXTK\Src\Shaders\Utilities.fxh" />
+    <None Include="$(SolutionDir)external\DirectXTK\Src\TeapotData.inc" />
+    <None Include="$(SolutionDir)external\DirectXTK\Src\Shaders\BasicEffect.fx" />
+    <None Include="$(SolutionDir)external\DirectXTK\Src\Shaders\AlphaTestEffect.fx" />
+    <None Include="$(SolutionDir)external\DirectXTK\Src\Shaders\DualTextureEffect.fx" />
+    <None Include="$(SolutionDir)external\DirectXTK\Src\Shaders\EnvironmentMapEffect.fx" />
+    <None Include="$(SolutionDir)external\DirectXTK\Src\Shaders\SkinnedEffect.fx" />
+    <None Include="$(SolutionDir)external\DirectXTK\Src\Shaders\DGSLEffect.fx" />
+    <None Include="$(SolutionDir)external\DirectXTK\Src\Shaders\DGSLLambert.hlsl" />
+    <None Include="$(SolutionDir)external\DirectXTK\Src\Shaders\DGSLPhong.hlsl" />
+    <None Include="$(SolutionDir)external\DirectXTK\Src\Shaders\DGSLUnlit.hlsl" />
+    <None Include="$(SolutionDir)external\DirectXTK\Src\Shaders\NormalMapEffect.fx" />
+    <None Include="$(SolutionDir)external\DirectXTK\Src\Shaders\PostProcess.fx" />
+    <None Include="$(SolutionDir)external\DirectXTK\Src\Shaders\ToneMap.fx" />
+    <None Include="$(SolutionDir)external\DirectXTK\Src\Shaders\PBREffect.fx" />
+    <None Include="$(SolutionDir)external\DirectXTK\Src\Shaders\DebugEffect.fx" />
+  </ItemGroup>
+</Project>

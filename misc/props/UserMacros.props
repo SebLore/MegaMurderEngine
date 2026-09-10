@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros">
+    <External>$(SolutionDir)external\</External>
+    <Projects>$(SolutionDir)Projects\</Projects>
+    <ExternalProjects>$(Projects)external\</ExternalProjects>
+    <DirectXTK>$(External)DirectXTK\</DirectXTK>
+    <DirectXTKInclude>$(DirectXTK)Inc;$(DirectXTK)Audio;$(DirectXTK)Src</DirectXTKInclude>
+    <ImGuiInclude>$(External)imgui;$(External)imgui\backends</ImGuiInclude>
+    <AssimpInclude>$(External)assimp\include;$(ExternalProjects)assimp\include</AssimpInclude>
+    <FModInclude>$(External)FMod\core\inc;$(External)FMod\studio\inc</FModInclude>
+    <EnttInclude>$(External)entt\src</EnttInclude>
+    <JoltInclude>$(External)jolt</JoltInclude>
+    <ExternalIncludes>$(DirectXTKInclude);$(EnttInclude);$(FModInclude);$(JoltInclude);$(ImGuiInclude);$(AssimpInclude)</ExternalIncludes>
+    <DefaultLibPath>$(SolutionDir)lib\$(Configuration)\$(Platform)\</DefaultLibPath>
+    <DefaultIntPath>$(SolutionDir)int\$(Configuration)\$(Platform)\$(ProjectName)\</DefaultIntPath>
+    <DefaultBinPath>$(SolutionDir)bin\</DefaultBinPath>
+    <ExternalLibsDbg>Jolt_d.lib;assimp_d.lib;zlibstaticd.lib;fmodL_vc.lib;fmodstudioL_vc.lib;imgui_d.lib;DirectXTK_d.lib;</ExternalLibsDbg>
+    <ExternalLibsRelease>Jolt.lib;assimp.lib;zlibstatic.lib;fmod_vc.lib;fmodstudio_vc.lib;imgui.lib;DirectXTK.lib;</ExternalLibsRelease>
+    <LibsDbg>Platform_d.lib;DebugDraw_d.lib;Audio_d.lib;AssetManager_d.lib;Engine2D_d.lib;RenderEngine_d.lib;</LibsDbg>
+    <LibsRelease>Platform.lib;DebugDraw.lib;Audio.lib;AssetManager.lib;Engine2D.lib;RenderEngine.lib;</LibsRelease>
+    <JoltDebugFeatureDefines>JPH_DEBUG_RENDERER;JPH_FLOATING_POINT_EXCEPTIONS_ENABLED;JPH_PROFILE_ENABLED;JPH_OBJECT_STREAM</JoltDebugFeatureDefines>
+    <JoltReleaseFeatureDefines>JPH_DEBUG_RENDERER;JPH_PROFILE_ENABLED;JPH_OBJECT_STREAM</JoltReleaseFeatureDefines>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup />
+  <ItemGroup>
+    <BuildMacro Include="External">
+      <Value>$(External)</Value>
+    </BuildMacro>
+    <BuildMacro Include="Projects">
+      <Value>$(Projects)</Value>
+    </BuildMacro>
+    <BuildMacro Include="ExternalProjects">
+      <Value>$(ExternalProjects)</Value>
+    </BuildMacro>
+    <BuildMacro Include="DirectXTK">
+      <Value>$(DirectXTK)</Value>
+    </BuildMacro>
+    <BuildMacro Include="DirectXTKInclude">
+      <Value>$(DirectXTKInclude)</Value>
+    </BuildMacro>
+    <BuildMacro Include="ImGuiInclude">
+      <Value>$(ImGuiInclude)</Value>
+    </BuildMacro>
+    <BuildMacro Include="AssimpInclude">
+      <Value>$(AssimpInclude)</Value>
+    </BuildMacro>
+    <BuildMacro Include="FModInclude">
+      <Value>$(FModInclude)</Value>
+    </BuildMacro>
+    <BuildMacro Include="EnttInclude">
+      <Value>$(EnttInclude)</Value>
+    </BuildMacro>
+    <BuildMacro Include="JoltInclude">
+      <Value>$(JoltInclude)</Value>
+    </BuildMacro>
+    <BuildMacro Include="ExternalIncludes">
+      <Value>$(ExternalIncludes)</Value>
+    </BuildMacro>
+    <BuildMacro Include="DefaultLibPath">
+      <Value>$(DefaultLibPath)</Value>
+    </BuildMacro>
+    <BuildMacro Include="DefaultIntPath">
+      <Value>$(DefaultIntPath)</Value>
+    </BuildMacro>
+    <BuildMacro Include="DefaultBinPath">
+      <Value>$(DefaultBinPath)</Value>
+    </BuildMacro>
+    <BuildMacro Include="ExternalLibsDbg">
+      <Value>$(ExternalLibsDbg)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+    <BuildMacro Include="ExternalLibsRelease">
+      <Value>$(ExternalLibsRelease)</Value>
+    </BuildMacro>
+    <BuildMacro Include="LibsDbg">
+      <Value>$(LibsDbg)</Value>
+    </BuildMacro>
+    <BuildMacro Include="LibsRelease">
+      <Value>$(LibsRelease)</Value>
+    </BuildMacro>
+    <BuildMacro Include="JoltDebugFeatureDefines">
+      <Value>$(JoltDebugFeatureDefines)</Value>
+    </BuildMacro>
+    <BuildMacro Include="JoltReleaseFeatureDefines">
+      <Value>$(JoltReleaseFeatureDefines)</Value>
+    </BuildMacro>
+  </ItemGroup>
+</Project>
